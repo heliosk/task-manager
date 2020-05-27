@@ -22,9 +22,10 @@ module.exports = {
 	],
 	'rules': {
 		semi: [2, 'always'],
-        indent: ['error', 4],
-        "space-before-function-paren": 0,
-        "no-unused-vars": 0,
-        quotes: [2, "single", { "avoidEscape": true }]
+		indent: ['error', 'tab'],
+		quotes: [2, 'single', { 'avoidEscape': true }],
+		'space-before-function-paren': 0,
+		'no-unused-vars': 0,
+		'@typescript-eslint/no-explicit-any': 'off',
 	}
 };
